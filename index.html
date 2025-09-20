@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Reader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Upload QR Code</h1>
+  <p>Select a QR code image to decode and visit its URL.</p>
+
+  <input type="file" id="qrInput" accept="image/*">
+  <p id="result"></p>
+
+  <!-- JS QR decoding library -->
+  <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
